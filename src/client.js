@@ -526,6 +526,8 @@ class RPCClient extends EventEmitter {
         secrets,
         buttons: args.buttons,
         instance: !!args.instance,
+        type: args.activityType,
+        status_display_type: args.statusDisplayType,
       },
     });
   }

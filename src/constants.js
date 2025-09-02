@@ -176,3 +176,23 @@ exports.RelationshipTypes = {
   PENDING_OUTGOING: 4,
   IMPLICIT: 5,
 };
+
+exports.ActivityType = {
+  /** Activity type "Playing X" */
+  Playing: 0,
+  /** Activity type "Listening to X" */
+  Listening: 2,
+  /** Activity type "Watching X" */
+  Watching: 3,
+  /** Activity type "Competing in X" */
+  Competing: 5,
+};
+
+exports.StatusDisplayType = {
+  /** "Listening to Spotify" */
+  Name: 0,
+  /** "Listening to Rick Astley" */
+  State: 1,
+  /** "Listening to Never Gonna Give You Up" */
+  Details: 2,
+};

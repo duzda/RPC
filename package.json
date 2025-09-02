@@ -9,6 +9,7 @@
     "remote procedural call"
   ],
   "main": "src/index.js",
+  "types": "types/index.d.ts",
   "jsdelivr": "browser.js",
   "unpkg": "browser.js",
   "author": "snek <me@gus.host>",
@@ -38,6 +39,7 @@
     "register-scheme": "github:devsnek/node-register-scheme"
   },
   "devDependencies": {
+    "@types/events": "*",
     "babel-eslint": "^10.0.3",
     "discord.js-docgen": "github:discordjs/docgen",
     "electron": "^7.1.9",
